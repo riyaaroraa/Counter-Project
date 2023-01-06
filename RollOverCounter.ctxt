@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RollOverCounter
+comment0.text=\n\ A\ counter\ that\ resets\ everytime\ the\ maximum\ count\ is\ reached.\n\ \n\ @author\ Riya\ Arora\ (101190033)\n\ @version\ June\ 8,\ 2022\n\ \n
+comment1.params=
+comment1.target=RollOverCounter()
+comment1.text=\n\ Constructs\ a\ new\ RollOverCounter\ whose\ current\ count\ is\n\ initialized\ to\ DEFAULT_MINIMUM,\ and\ which\ counts\ between\n\ DEFAULT_MINIMUM\ and\ DEFAULT_MAXIMUM,\ inclusive,\ which\ are\ set\ in\ the\ \n\ super\ class,\ Counter.\n
+comment2.params=minCount\ maxCount
+comment2.target=RollOverCounter(int,\ int)
+comment2.text=\n\ Constructs\ a\ new\ RollOverCounter\ whose\ current\ count\ is\n\ initialized\ to\ minCount,\ and\ which\ counts\ between\n\ minCount\ and\ maxCount,\ inclusive.\n\ \n\ @param\ minCount\ The\ minimum\ limit\ of\ the\ counter\n\ @param\ maxCount\ The\ maximum\ limit\ of\ the\ counter\n\ \n
+comment3.params=
+comment3.target=void\ countUp()
+comment3.text=\n\ Increment\ this\ counter\ by\ 1.\ If\ we've\ reached\ the\ maximum\ count,\ invoking\ this\ \n\ method\ rolls\ the\ counter\ over\ to\ its\ minimum\ value.\n
+numComments=4
